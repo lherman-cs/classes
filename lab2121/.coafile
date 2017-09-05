@@ -1,0 +1,8 @@
+[all]
+files = **.cpp, **.h
+language = C++
+max_line_length = 80
+use_spaces = True
+
+[all.Complexity]
+bears = ClangComplexityBear

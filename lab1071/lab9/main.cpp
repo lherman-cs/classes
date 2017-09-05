@@ -1,0 +1,54 @@
+#include <iostream>
+
+#include "matrix.h"
+
+int main()
+{
+    // creates a 3x3 matrix
+    Matrix a(3, 3);
+    Matrix b(3, 3);
+    Matrix c(3, 3);
+    
+    for(int i = 0; i < a.getRows(); i++) {
+        for(int j = 0; j < a.getCols(); j++) {
+            a[i][j] = 1;
+            b[i][j] = 2;
+            c[i][j] = i + j;
+        }
+    }
+
+    std::cout << "\nmatrix a\n";
+    a.print();
+
+    std::cout << "\nmatrix b\n";
+    b.print();
+
+    std::cout << "\nmatrix c\n";
+    c.print();
+
+    std::cout << "\na + b\n";
+    Matrix m1(a + b);
+    m1.print();
+
+    std::cout << "\n";
+
+    std::cout << "\na - b\n";
+    Matrix m2(a - b);
+    m2.print();
+
+    std::cout << "\n";
+    std::cout << "\na * b\n";
+    Matrix m3(a * b);
+    m3.print();
+
+    std::cout << "\n";
+
+    std::cout << "\ntranspose(c)\n";
+    Matrix m4(c.transpose());
+    m4.print();
+
+    std::cout << "\n";
+
+    return 0;
+
+}

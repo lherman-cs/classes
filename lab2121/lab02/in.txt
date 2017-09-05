@@ -1,0 +1,11 @@
+insert lukas
+insert herman
+insert a
+insert b
+insert c
+insert d
+insert w
+insert ewqeq
+insert adsad
+print
+quit

@@ -1,0 +1,9 @@
+remove -6
+find 1
+find 9
+remove -2
+find -6
+insert 4
+insert -4
+print
+quit

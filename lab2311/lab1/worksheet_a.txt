@@ -1,0 +1,52 @@
+CPSC 2311 Lab 1
+
+1. Run "./acc_x86". Explain what the simulator is doing in the fetch, decode, execute
+    cycle. (10 points)
+	-> fetch   = Put an instruction to IR (Instruction Register) and increment PC to the next instruction at a time
+	-> decode  = Translate from a code to a set of instructions at a time
+	-> execute = Execute the decoded instructions from the decoding process and increment PC to the next instruction
+
+
+2. You should be using one of the branching instructions in your my_loop.m source code (ex: ble0, bgt0, etc.). At which position in memory (i.e. program counter value) is your branch instruction? (10 points)
+	-> bgt0 = 13
+	-> ba = 27
+
+3. Explain the difference between MDR and MAR. (10 points)
+	-> MDR = Hold the data
+	-> MAR = hold the addresses
+
+4. Run the three versions of the program using acc and record the statistics. (10 points)
+	-> my_loop.m: 
+		simulation of accumulator machine ends with acc = 1
+		instructions executed = 107
+ 		instruction fetches   = 213
+  		data reads            =  64
+  		data writes           =  21
+	
+	-> source1.m:
+		simulation of accumulator machine ends with acc = 0
+		instructions executed =  98
+  		instruction fetches   = 195
+  		data reads            =  54
+  		data writes           =  22
+
+	-> source2.m:
+		simulation of accumulator machine ends with acc = 0
+  		instructions executed =  76
+  		instruction fetches   = 151
+  		data reads            =  43
+  		data writes           =  22
+
+
+5. Explain the differences in statistics. (15 points)
+	-> Looping in ascending order (my_loop.m) is the most inefficient way because it needs some extra instructions to make it work. Whereas looping in descending order, putting
+	   the conditional statement on the top (source1.m) is more inefficient because there is one extra checking which leads to some extra instructions. So, the most efficient way
+	   to make a loop is by making it descending and putting the conditional statement on the bottom.
+
+
+6. Which version do you think is better and why? (15 points)
+	-> source2.m is the best because it has lesser number of executed instructions, fetched instructions, data reads, and data writes, which means it is more efficient.
+
+
+7. Fill in the blanks in worksheet_b.txt. (30 points)
+

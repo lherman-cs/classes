@@ -1,0 +1,11 @@
+#!/bin/sh
+echo "readColor()" tests
+TEST=1
+/bin/ls -1 testdata/testcolor*.txt | while read FILE;do
+   echo -n "Test $TEST input data ($FILE): "
+   cat $FILE
+   echo -n "Test $TEST output: "
+   ./tester $FILE
+   TEST=`expr $TEST + 1`
+   echo
+done

@@ -1,0 +1,5 @@
+"Lukas Herman" likes "Cici's Pizza"
+"Lukas Herman" likes "China Garden"
+"Lukas Herman" likes "Golden Corral"
+"Lukas Herman" likes "Jasmine"
+"Lukas Herman" likes "KFC"

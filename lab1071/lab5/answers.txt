@@ -1,0 +1,70 @@
+CPSC 1071: Lab 5
+
+NAME: Lukas Herman
+
+TASK 2, Exercise 1 QUESTIONS:
+----------------------------
+
+1) What line in broken1.c did the program seg fault on?
+   -> 28
+
+
+2) What was the value of the variable "count" at the time of 
+   the seg fault?
+   -> 10
+
+
+
+
+3) What was the value of the variable "ndx" at the time of the 
+   seg fault?
+   -> 609
+
+
+
+4) What was the value of the variable "search" at the time of 
+   the seg fault?
+   -> 1
+
+
+5) What are the values in the "table" array?
+   -> {11.5, -32.7000008, 55.2999992, 74.6999969, 82.9000015, 16.2999992, 
+       22.4500008, -10, -8.14999962, 17.25}
+
+
+
+
+
+6) what do the you think the bug is?
+   -> The program tries to access a block of memory which is beyond the size of
+      the array, which is just 10. However, it actually accesses the array value
+      at index 609, the ndx variable value.
+
+
+TASK 2, Exercise 2 QUESTIONS:
+----------------------------
+
+1) What was the line number of the last statement executed in 
+   broken2.c before the program seg faulted?
+   -> 17
+
+
+2) What was the value of the variable "max" at the time of the 
+   seg fault?
+   -> 20
+
+
+
+3) What was the value of the variable "ndx" at the time of the 
+   seg fault?
+   -> -134245184
+
+
+
+5) What do the you think is the cause of the bug?
+   -> The program tries to access a block of memory that is beyond the size of
+      the array, which is just 10. The program actually tries to access the
+      array value at index -134245184, the ndx variable value.
+
+
+

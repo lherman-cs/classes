@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main(){
+
+int a = 37;     int b = 9;     int c = 757;     int *t = &a;     int *u = NULL;
+    printf("%d %d\n", a, *t);
+    c = b;     u = t;
+    printf("%d %d\n", c, *u);
+    a = 5;     b = 5;     printf("%d %d %d %d\n", b, c, *t, *u);
+    *t = 235;     printf("%d %d %d %d %d\n", a, b, c, *t, *u);
+
+}

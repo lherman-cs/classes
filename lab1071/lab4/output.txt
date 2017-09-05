@@ -1,0 +1,36 @@
+
+18
+18 is positive.  count = 1
+
+52
+52 is positive.  count = 2
+
+-31
+-31 is negative. count = 1
+
+97
+97 is positive.  count = 3
+
+46
+46 is positive.  count = 4
+
+-75
+-75 is negative. count = 2
+
+63
+63 is positive.  count = 5
+
+-17
+-17 is negative. count = 3
+
+15
+15 is positive.  count = 6
+
+68
+68 is positive.  count = 7
+
+-49
+-49 is negative. count = 4
+
+67
+67 is positive.  count = 8

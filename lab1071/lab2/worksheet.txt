@@ -1,0 +1,99 @@
+Name:
+
+Task 1. 
+------
+
+One of the files you copied was ptrlab.c.  Compile and run the 
+program. 
+
+1.  Run the program three more times.  Did the same addresses print
+    each time?
+
+	No, they're different.
+
+    
+2.  At the line indicated by the comment beginning with "/**  DO THIS  ,"
+    write code to change the values for c, x, and d via the pointers,
+    then compile and run the program.  Did the program print the same
+    value for c and *cptr?  x and *xptr? d and *dptr?
+
+	Yes, the values for c and *cptr are the same and so the rest.
+
+    If not, fix the program until it does.
+
+
+3.  It is possible to add an integer to or subtract an integer from
+    a pointer.  Look at the output produced by the execution of ptrlab.c.
+    Underneath the heading, "Pointers before increment," note the 
+    address stored in each pointer variable.  These are hexadecimal 
+    (base 16) values.  A represents decimal 10, B = decimal 11,
+    c = decimal 12, d = decimal 13, e = decimal 14, and f = decimal 15.
+
+    Now, examine the address stored in each pointer variable after 
+    incrementing the pointer.  Is the same integer added each time?
+
+	-> No, they're different depending on the data type
+	
+
+    See if you can determine the integer added to each pointer, and
+    put your answers below.
+
+    a.  Adding 1 to a variable that holds a character address 
+        adds what number to the address?
+		
+		-> 1 number
+
+    b.  Adding 1 to a variable that holds the address of an integer 
+        addresses adds what number to that address?
+	
+		-> 4 numbers
+
+    c.  Adding 1 to a variable that holds an address of a float
+        adds what number to that address?
+
+		-> 4 numbers
+
+    d.  Adding 1 to a variable that holds an address of a double
+        adds what number to that address?
+
+		-> 8 numbers
+
+
+    Since the answer to question 3a is 1, characters are stored in 
+    memory using only 1 byte. A byte is a unit of measure of memory. 
+    How many bytes are used to store integers on your computer? 
+
+	-> 4 bytes
+
+    Take note that the number of bytes used to store characters, 
+    integers and floats varies depending on the type of computer or 
+    platform (e.g. 32 bits, 64 bits system etc.) and/or the target 
+    platform of your program. You can use the sizeof() function to 
+    check the size of variables as demonstrated in our in-class
+    example, ptr1.c
+          
+
+4.  Given, 
+
+       *xptr = 100; 
+
+    what value will be in x and *xptr after executing the following statement?
+
+       (*xptr)++;
+
+	-> x = 101
+	-> *xptr = 101
+
+
+
+Task 2
+------
+
+1.  Trace the code and type your output below.
+->
+	37 37
+	9 37
+	5 9 5 5
+	235 5 9 235 235
+
+

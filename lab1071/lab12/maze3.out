@@ -1,0 +1,43 @@
+visiting 54 with pathlen 0
+visiting 55 with pathlen 1
+visiting 44 with pathlen 1
+visiting 43 with pathlen 2
+visiting 42 with pathlen 3
+visiting 52 with pathlen 4
+visiting 51 with pathlen 5
+visiting 50 with pathlen 6
+visiting 40 with pathlen 7
+visiting 30 with pathlen 8
+visiting 31 with pathlen 9
+visiting 21 with pathlen 10
+visiting 22 with pathlen 11
+visiting 23 with pathlen 12
+visiting 24 with pathlen 13
+visiting 25 with pathlen 14
+visiting 12 with pathlen 12
+visiting 02 with pathlen 13
+visiting 01 with pathlen 14
+visiting 00 with pathlen 15
+visiting 03 with pathlen 14
+visiting 04 with pathlen 15
+visiting 05 with pathlen 16
+
+found the target at 0  5
+
+0 (5, 4 )
+1 (4, 4 )
+2 (4, 3 )
+3 (4, 2 )
+4 (5, 2 )
+5 (5, 1 )
+6 (5, 0 )
+7 (4, 0 )
+8 (3, 0 )
+9 (3, 1 )
+10 (2, 1 )
+11 (2, 2 )
+12 (1, 2 )
+13 (0, 2 )
+14 (0, 3 )
+15 (0, 4 )
+16 (0, 5 )

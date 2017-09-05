@@ -1,0 +1,11 @@
+car1 miles traveled: 0
+car2 miles traveled: 75000
+car3 miles traveled: 25000
+car1 miles traveled: 50000
+car2 miles traveled: 75001
+car3 miles traveled: 24999
+car2 miles traveled: 75001
+Warranty info for car2: Warranty valid:  A/C
+Warranty info for car3: All parts under warranty
+In the destructor.
+In the destructor.

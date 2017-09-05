@@ -1,0 +1,18 @@
+
+List 1: 25, 20, 15, 10, 5, 
+
+
+Test l_reset() function: First value = 25
+
+List 2: banana, peach, orange, apple, 
+
+
+List 3:
+   [34577 Dodge Caravan 2003],
+   [54387 Nissan Altima 2006],
+   [34257 Chevrolet Impala 2007],
+   [15677 Jeep Cherokee 2004],
+   [32565 Toyota Camry 2010],
+   [32168 Honda Accord 2010],
+   [23456 Ford Mustang 2009],
+
